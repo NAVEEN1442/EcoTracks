@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Caveat:wght@400..700&family=Chelsea+Market&family=Finger+Paint&family=Irish+Grover&family=Itim&family=Jura:wght@300..700&family=Liu+Jian+Mao+Cao&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+.family-FP {
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .family-L {
+    font-family: "ADLaM Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .family-irish {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .family-cursive {
+    font-family: "Liu Jian Mao Cao", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .family-livvic {
+    font-family: "Livvic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .family-jura {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+.family-cat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+} 
+.family-itim {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

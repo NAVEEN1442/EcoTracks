@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Routes/Home';
+import "./fontFamily.css"
+import Login from './Routes/Login';
+import SignUp from './Routes/SignUp';
+import OTP from './Routes/OTP';
+import GetCarbon from './Routes/GetCarbon';
+import Content from './Routes/Content'
+import ContentData from './Routes/ContentData'
+import Mix from "./Routes/Mix"
+import Dashboard from "./Routes/Dashboard"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=' no-scrollbar overflow-auto  ' >
+
+      <Routes>
+      
+        <Route path='/' element={<Home/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/signup' element={<SignUp/>} />
+        <Route path='/verifyEmail' element={<OTP/>}/>
+        <Route path='/carbon' element={<GetCarbon/>} />
+        <Route path='/Content' element={<Content/>} />
+        <Route path='/ContentData/:id' element={<ContentData/>} />
+        <Route path='/mix' element={<Mix/>} /> 
+        <Route path='/dashboard' element={<Dashboard/>} />
+
+      </Routes>
+
     </div>
   );
 }

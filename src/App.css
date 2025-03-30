@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.back-img{
+  background-image: url("C:\Users\skuma\OneDrive\Desktop\Personal Projects\Christmas\app\src\assets\Auth\snowBG.png");
+  background-repeat: repeat;
+}
